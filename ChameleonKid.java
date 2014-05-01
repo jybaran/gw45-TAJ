@@ -1,8 +1,3 @@
-// JENNY BARAN
-// APCS2 pd 9
-// HW34
-// 2014-04-29
-
 import info.gridworld.actor.Actor;
 import info.gridworld.actor.Critter;
 import info.gridworld.grid.Location;
