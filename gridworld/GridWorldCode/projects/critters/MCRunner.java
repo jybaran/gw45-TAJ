@@ -25,10 +25,9 @@ import info.gridworld.grid.Location;
 import java.awt.Color;
 
 /**
- * This class runs a world that contains BlusterCritters
- * & standard Critters.
+ * This class runs a world that contains MedusaCritters.
  */
-public class BCRunner
+public class MCRunner
 {
     public static void main(String[] args)
     {
@@ -39,8 +38,8 @@ public class BCRunner
         world.add(new Location(5, 5), new Critter());
         world.add(new Location(1, 5), new Critter());
         world.add(new Location(7, 2), new Critter());
-        world.add(new Location(4, 4), new BlusterCritter(1));
-        world.add(new Location(5, 8), new BlusterCritter(4));
+        world.add(new Location(5, 8), new Critter());
+        world.add(new Location(4, 4), new MedusaCritter());
         world.show();
     }
 }
