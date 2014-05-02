@@ -3,10 +3,15 @@ import info.gridworld.actor.Critter;
 import info.gridworld.actor.Rock; 
 import info.gridworld.grid.Location;
 
-import java.util.ArrayList; 
+import java.util.ArrayList;
+import java.awt.Color;
 
 
 public class MedusaCritter extends Critter {
+
+    public MedusaCritter() {
+	setColor(Color.GREEN);
+    }
     
     public ArrayList<Actor> getActors()
     {
